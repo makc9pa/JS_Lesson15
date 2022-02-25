@@ -29,6 +29,6 @@ const DomElement = function (name, height, width, bg, fontSize) {
     }
 }
 
-const block = new DomElement('#lesson15', '100px', '200px', 'khaki', '1.2em')
+const block = new DomElement('.lesson15', '100px', '100px', 'khaki', '1.2em')
 
 block.createElement()
